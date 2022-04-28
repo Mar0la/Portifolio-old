@@ -15,77 +15,191 @@
 
     <title>Portfólio</title>
 </head>
-    <header class="header">
-        <a class="logo" href="#"><img src="img/Matheus MARINS.svg" alt="logo"></a>
-        <nav>
-             <ul class="header-menu">
-                <li>
-                    <a href="#experiência">Experiência</a>
-                </li>
-                <li>
-                    <a href="#formação">Formação</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
-            </ul>
+    <header>
 
-        </nav>
-    </header>
-    <main class="introdução">
-        <img src="img/perfil.jpg" alt="foto-perfil">
-        <div>
-            <h1>Desenvolvedor <br>
-                Front End & <br>
-                UX/UI Designer</h1>
-            <p>Localizado no Rio de Janeiro </p>
+        <div class="header-menu">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Matheus MARINS.svg" alt="logo">
+                </a>
+            </div>
+
+            <nav>
+                 <ul>
+                    <li>
+                        <a href="#experiência">Experiência</a>
+                    </li>
+                    <li>
+                        <a href="#formação">Formação</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
 
-        <section class="experiencia" id="experiência"
-        idaria-label="Experiência">
-            <h2 class="Experiencia">Experiência</h2>
-            <div>
-                <p class="experiência-texto">Desenvolvo projetos como o <strong>SeoDeCode</strong> utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web, tambem utilizo <strong>UX</strong> e <strong>UI Design</strong>  para melhor perfomace.</p>
+    </header>
+    <main>
+        <section class="introdução" aria-label="Introdução">
+            <div class="introdução-texto">
+                <h1>Desenvolvedor <br>
+                    Front End & <br>
+                    UX/UI Designer</h1>
+                <p>Localizado no Rio de Janeiro </p>
+            </div>
+
+        </section>
+
+        <div  class="seprador-introdução-experiência">
+        </div>
+
+        <section class="main-grid experiência" id="experiência"
+        aria-label="Experiência">
+            <div class="experiência-titulo">
+                <h2>Expe<br>riên<br>cia</h2>
+            </div>
+
+            <div class="trabalhos">
+                <div class="introdução-trabalhos">
+                    <p>Desenvolvo  projetos como o SeoDeCode utilizando apenas <strong>HTML</strong>, CSS e <strong>JavaScript</strong>. Para aplicativos web, também utilizo <strong>UX</strong> e <strong>UI Design</strong>  para melhor desempenho.</p>
+                </div>
+
+                <div class="engloba-trabalho">
+                    <div class="trabalho" id="SeoDeCode">
+                        <div class="trabalho-texto">
+                            <h3>SeoDeCode</h3>
+                            <P>Desenvolvo  projetos empresariais como o SeoDeCode utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</P>
+                        </div>
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>JavaScript</li>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="trabalho">
+                        <div class="trabalho-texto">
+                            <h3>Bikcraft</h3>
+                            <P>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</P>
+                        </div>
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>JavaScript</li>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="trabalho">
+                        <div class="trabalho-texto">
+                            <h3>Eletric</h3>
+                            <P>Desenvolvo  projetos pessoais como o Eletric utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</P>
+                        </div>
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>JavaScript</li>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
         </section>
+
+        <section class="main-grid-formação formação" id="formação" area-label="Formação">
+
+            <div class="formação-titulo">
+                <h2>Forma<br>ção</h2>
+            </div>
+           
+            <div class="introdução-formação">
+
+                <div class="minha-formação">
+                    <p class="minha-formação-P" >Estou cursando <strong>Análise e Desenvolvimento de Sistemas.</strong></p>
+
+                    <div class="container-minha-formação">
+                        <p class="tipo-faculdade">TECNÓLOGO</p>
+                        <p class="tipo-profissão">Análise e Desenvolvimento de Sistemas</p>
+                        <p class="universidade">Estacio de Sá</p>
+                    </div>
+                </div>
+
+                <div class="listas">
+
+                    <p class="curso-intensivo">CURSOS INTENSIVOS</p>
+                    <ul class="lista">
+                        <li>Rocketseat
+                        <ol>
+                            <li>Discover</li>
+                            <li>NLW-Together</li>
+                            <li>NLW-Heat</li>
+                        </ol>
+                        </li>
+                        <li>Origamid
+                        <ol>
+                            <li>Design para iniciante.</li>
+                            <li>HTML CSS para iniciantes.</li>
+                        </ol>
+                        </li>
+                        <li>Outros
+                        <ol>
+                            <li>UI design e UX Design</li>
+                        </ol>
+                        </li>
+                    </ul>
+
+                    <p class="idioma">IDIOMAS</p>
+
+                    <ul class="lista">
+                        <li>Ingles/<span>Intermediário</span></li>
+                        <li>Espanhol/<span>Intermediário</span></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
     </main>
+    <footer id="contato">
+        <div class="info">
+            <p class="disponivel">Estou disponível para novos projetos no momento. Entre em contato comigo 👋</p>
+            <p class="reservados"> Alguns direitos reservados.</p>
+        </div>
+        <div class="div-contato">
+            
+            <ul>
+                <li>
+                    <h4>Meios de Contato</h4>
+                </li>
+                <li>
+                    <a class="contato-lista" href="https://wa.me/5521986661807">
+                        <img src="img/icons/whatsapp 2.svg" alt="">
+                        <p>+55 (21) 98666-1807</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="contato-lista" href="https://www.linkedin.com/in/matheus-marins-2a8649208/">
+                        <img src="img/icons/linkedin 1.svg" alt="">
+                        <p>Matheus Marins</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="contato-lista" href="">
+                        <img src="img/icons/mail 1.svg" alt="">
+                        <p>teste@hotmail.com</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
     
-    <div class="trabllhos">
-        <h3 trabalho-titulo>SeoDeCode</h3>
-        <p>Desenvolvo  projetos empresariais como o SeoDeCode utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</p>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>JavaScript</li>
-            <li>UX Design</li>
-            <li>UI Design</li>
-            <li>Email Marketing</li>
-        </ul>
-    </div>
-
-    <div class="trabllhos">
-        <h3 trabalho-titulo>Eletric</h3>
-        <p>Desenvolvo  projetos pessoais como o Eletric utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</p>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>JavaScript</li>
-            <li>UX Design</li>
-            <li>UI Design</li>
-        </ul>
-    </div>
-
-    <div class="trabllhos">
-        <h3 trabalho-titulo>Bikcraft</h3>
-        <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web.</p>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>JavaScript</li>
-            <li>UX Design</li>
-            <li>UI Design</li>
-        </ul>
-    </div>
 
 
 <body>
